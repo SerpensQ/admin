@@ -1,0 +1,22 @@
+C:\Users\admin\source\repos\Шахматы\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.deps.json
+C:\Users\admin\source\repos\Шахматы\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.runtimeconfig.json
+C:\Users\admin\source\repos\Шахматы\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Шахматы\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.dll
+C:\Users\admin\source\repos\Шахматы\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.pdb
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.AssemblyInfo.cs
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.dll
+C:\Users\admin\source\repos\Шахматы\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.pdb
+C:\Users\admin\source\repos\Логические операции\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.deps.json
+C:\Users\admin\source\repos\Логические операции\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.runtimeconfig.json
+C:\Users\admin\source\repos\Логические операции\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Логические операции\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.dll
+C:\Users\admin\source\repos\Логические операции\bin\Debug\netcoreapp2.1\Домашняя работа с графиками.pdb
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.AssemblyInfo.cs
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.dll
+C:\Users\admin\source\repos\Логические операции\obj\Debug\netcoreapp2.1\Домашняя работа с графиками.pdb
