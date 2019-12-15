@@ -7,7 +7,7 @@ namespace Homework
         static void Main(string[] args)
         {
             Console.WriteLine("Введите длину прямоугольника");
-            double a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите ширину прямоугольника");
             double b = Convert.ToInt32(Console.ReadLine());
             double area = a * b;
