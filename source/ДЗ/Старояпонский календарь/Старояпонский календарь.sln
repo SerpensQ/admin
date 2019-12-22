@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Старояпонский календарь", "Старояпонский календарь.csproj", "{BA1B1893-8085-44BC-9C71-9D27967315B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1B1893-8085-44BC-9C71-9D27967315B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1B1893-8085-44BC-9C71-9D27967315B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1B1893-8085-44BC-9C71-9D27967315B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1B1893-8085-44BC-9C71-9D27967315B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {080CEE7E-4DC4-41E2-B1A7-78AEFEB9D619}
+	EndGlobalSection
+EndGlobal

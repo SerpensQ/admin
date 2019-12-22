@@ -7,18 +7,16 @@ namespace Homework
         static void Main(string[] args)
         {
             Console.WriteLine("Введите длину прямоугольника");
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите ширину прямоугольника");
-            int b = Convert.ToInt32(Console.ReadLine());
-            int AREA = a * b;
-            int PERIMETR = 2 * a + 2 * b;
-            int Power = 2;
-            double e = Math.Pow(a, Power);
-            double f = Math.Pow(b, Power);
-            double DIAGONAL = Math.Sqrt(e + f);
-            Console.WriteLine("Площадь прямоугольника=" + AREA);
-            Console.WriteLine("Периметр прямоугольника="+PERIMETR);
-            Console.WriteLine("Диагональ прямоугольника=" + DIAGONAL);
+            double b = Convert.ToInt32(Console.ReadLine());
+            double area = a * b;
+            double perimetr = 2 * a + 2 * b;
+
+            var diagonal = Math.Sqrt(a * a + b * b);
+            Console.WriteLine("Площадь прямоугольника=" + area);
+            Console.WriteLine("Периметр прямоугольника="+perimetr);
+            Console.WriteLine("Диагональ прямоугольника = {0:F3}", diagonal);
             Console.ReadKey();
         }
     }

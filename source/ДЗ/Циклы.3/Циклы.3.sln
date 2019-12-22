@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Циклы.3", "Циклы.3.csproj", "{88A79422-41E1-4DCE-A691-1DA869BC965B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A79422-41E1-4DCE-A691-1DA869BC965B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A79422-41E1-4DCE-A691-1DA869BC965B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A79422-41E1-4DCE-A691-1DA869BC965B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A79422-41E1-4DCE-A691-1DA869BC965B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578FDC84-1A7A-414C-A8DC-EA9CD719005E}
+	EndGlobalSection
+EndGlobal

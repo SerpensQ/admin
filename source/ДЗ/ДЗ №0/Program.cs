@@ -2,54 +2,32 @@
 
 namespace Homework2
 {
-    class Program
-    {
-        static void Main(string[] args)
+    
+    
+        class Program
         {
-            Console.WriteLine("Введите градусную меру угла");
-            int A = Convert.ToInt32(Console.ReadLine());
-            int B = 15;
-            int C = 113;
-            int D = 37;
-            double Sin1 = Math.Sin(B);
-            double Sin2 = Math.Sin(C);
-            double Sin3 = Math.Sin(D);
-            double Sin4 = Math.Sin(A);
-            double Cos1 = Math.Cos(B);
-            double Cos2 = Math.Cos(C);
-            double Cos3 = Math.Cos(D);
-            double Cos4 = Math.Cos(A);
+            static void Main(string[] args)
+            {
+                PrintSinCos(13);
+                PrintSinCos(37);
+                PrintSinCos(113);
+                Console.Write("Введите значение угла в градусах ");
+                var angle = double.Parse(Console.ReadLine());
+                PrintSinCos(angle);
+                Console.ReadKey();
 
-            double result = Math.Round(Sin4, 3);
-            Console.WriteLine("Синус Вашего угла=" + result);
+                void PrintSinCos(double angleInDegrees)
+                {
+                    double sin = Math.Sin(ConvertDegreesToRadians(angleInDegrees));
+                    double cos = Math.Cos(ConvertDegreesToRadians(angleInDegrees));
+                    Console.WriteLine("Синус угла {0} = {1:0.###}\n Косинус угла {0} = {2:0.###}", angleInDegrees, sin, cos);
+                }
 
-            double result1 = Math.Round(Cos4, 3);
-            Console.WriteLine("Косинус Вашего угла="+ result1);
-
-            double result2 = Math.Round(Sin1, 3);
-            Console.WriteLine("Синус угла 15=" + result2);
-
-            double result3 = Math.Round(Cos1, 3);
-            Console.WriteLine("Косинус угла 15=" + result3);
-
-            double result4 = Math.Round(Sin3, 3);
-            Console.WriteLine("Синус угла 37=" + result4);
-
-            double result5 = Math.Round(Cos3, 3);
-            Console.WriteLine("Косинус угла 37=" + result5);
-
-            double result6 = Math.Round(Sin2, 3);
-            Console.WriteLine("Синус угла 113=" + result6);
-
-            double result7 = Math.Round(Cos2, 3);
-            Console.WriteLine("Косинус угла 113=" + result7);
-
-           
-
-            Console.ReadKey();
-
-
-
+                double ConvertDegreesToRadians(double angleInDeegrees)
+                {
+                    return angleInDeegrees * Math.PI / 180;
+                }
+            }
         }
-    }
+    
 }
