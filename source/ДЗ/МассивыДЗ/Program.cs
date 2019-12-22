@@ -8,14 +8,18 @@ namespace МассивыДЗ
         static void Main()
         {
             Console.WriteLine("Введите первый член геометрической прогрессии P: ");
-            var p = Convert.ToInt32(Console.ReadLine());
+            var p = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите знаменатель прогрессии Q: ");
-            var q = Convert.ToInt32(Console.ReadLine());
+            var q = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine("Введите число, на которое будут умножены элементы массива:  ");
+            var k = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
 
 
-            int[] progression = new int[20];
+            double[] progression = new double[20];
             progression[0] = p;
             int i;
             for (i = 1; i < progression.Length; i++)
@@ -29,14 +33,15 @@ namespace МассивыДЗ
             GetSquares(progression);
             Console.WriteLine();
             Geometric(progression);
+           
 
-            void PrintArray(int[] prints)
+            void PrintArray(double[] prints)
             {
                 foreach (var print in prints)
                     Console.Write(print + " ");
             }
 
-            int GetSquares(int[] prints)
+            double GetSquares(double[] prints)
             {
                 for (int a = 0; a < prints.Length; a++)
                 {
@@ -47,25 +52,39 @@ namespace МассивыДЗ
                     Console.Write(print + " ");
                 return 0;
             }
-//Следующий метод с вычислением среднего геометрического элементов массива не работает, но я решила его оставить
-             double Geometric(int[] prints)
-            {
-                int multiply = 1;
 
-                for (int a = 1; a < prints.Length; a++)
+             double Geometric(double[] prints)
+            {
+                double multiply = 1;
+
+                for (int a = 0; a < prints.Length; a++)
                 {
-                    multiply = multiply * prints[a]; ;
+                    multiply *= prints[a]; ;
 
                 }
 
-                double geomAverage = Math.Pow(multiply, 1 / 20);
+                double geomAverage = Math.Pow(multiply, 1.0 / prints.Length);
 
                 Console.WriteLine("Среднее геометрическое элементов массива: " + geomAverage);
                 return geomAverage;
             }
 
+            double[] clone = (double[])progression.Clone();
+            double cloneOfProgression(double[] copies, double number)
+            {
+                for (int c = 0; c < copies.Length; c++)
+                {
+                   copies[c]*=number ;
 
+                }
+                foreach (var copy in copies)
+                    Console.Write(copy + " ");
+                return 0;
+            }
+            Console.WriteLine();
+            cloneOfProgression(clone, k);
 
+            
 
             Console.ReadKey();
 
